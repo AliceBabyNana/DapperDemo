@@ -1,0 +1,10 @@
+C:\Users\16501\Desktop\DapperDemo\DapperDemo\bin\Debug\DapperDemo.exe.config
+C:\Users\16501\Desktop\DapperDemo\DapperDemo\bin\Debug\DapperDemo.exe
+C:\Users\16501\Desktop\DapperDemo\DapperDemo\bin\Debug\DapperDemo.pdb
+C:\Users\16501\Desktop\DapperDemo\DapperDemo\bin\Debug\Dapper.dll
+C:\Users\16501\Desktop\DapperDemo\DapperDemo\bin\Debug\Dapper.xml
+C:\Users\16501\Desktop\DapperDemo\DapperDemo\obj\Debug\DapperDemo.csprojAssemblyReference.cache
+C:\Users\16501\Desktop\DapperDemo\DapperDemo\obj\Debug\DapperDemo.csproj.CoreCompileInputs.cache
+C:\Users\16501\Desktop\DapperDemo\DapperDemo\obj\Debug\DapperDemo.csproj.CopyComplete
+C:\Users\16501\Desktop\DapperDemo\DapperDemo\obj\Debug\DapperDemo.exe
+C:\Users\16501\Desktop\DapperDemo\DapperDemo\obj\Debug\DapperDemo.pdb
