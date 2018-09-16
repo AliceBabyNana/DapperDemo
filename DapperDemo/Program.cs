@@ -16,11 +16,13 @@ namespace DapperDemo
 
             IDbConnection conn = new SqlConnection(connStr);
             #region 增加
-            //string sql = "INSERT INTO STUDENTINFO(NAME,AGE,SEX)VALUES(@NAME,@AGE,@SEX);";
+            string sql = "INSERT INTO STUDENTINFO(NAME,AGE,SEX)VALUES(@NAME,@AGE,@SEX);";
 
             // int i = conn.Execute(sql, new StudentInfo { Name = "小王5", Age = 22, Sex = 'm' });
             // int b = conn.Execute(sql, new StudentInfo { Name = "小王6", Age = 33, Sex = 'f' });
             //var t=   conn.ExecuteAsync(sql, new StudentInfo { Name = "小王19", Age = 55, Sex = 'm' });
+
+           
 
             // Console.WriteLine(i + "行受影响");
             // Console.WriteLine(b + "行受影响");
@@ -43,6 +45,27 @@ namespace DapperDemo
             //conn.Execute(sql, new { Id = 2 });
             #endregion
 
+
+            #region 批量添加
+            //List<StudentInfo> studentInfoList = new List<StudentInfo>();
+            //for (int i = 8; i < 20; i++)
+            //{
+            //    studentInfoList.Add(new StudentInfo() {
+            //        Name = "大大虎" + i,
+            //        Age = i,
+            //        Sex=i%2==0?'f':'m'
+            //    });
+            //}
+            //string sql = "INSERT INTO STUDENTINFO(NAME,AGE,SEX)VALUES(@NAME,@AGE,@SEX);";
+            // conn.Execute(sql, studentInfoList);
+            #endregion
+
+            #region 分页查询
+            //string sql = "select * from (SELECT ROW_NUMBER()OVER(ORDER BY ID) AS  n,ID,NAME,AGE,SEX  FROM [dbo].[StudentInfo]) as t where t.n >=@Start and t.n<=@End;";
+
+            //var list = conn.Query<StudentInfo>(sql, new { Start =5, End = 10 });
+            
+            #endregion
 
             Console.WriteLine("ok");
             Console.ReadKey();
